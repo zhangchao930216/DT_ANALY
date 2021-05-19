@@ -1,0 +1,4 @@
+# InitDataComplete.job
+type=command
+dependencies=ExceptionAanaly
+command=sh /dt/bin/asynimportData.sh ${ANALY_DATE} ${ANALY_HOUR}
